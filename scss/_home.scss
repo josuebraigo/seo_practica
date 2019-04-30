@@ -1,3 +1,73 @@
 #home {
-	
+	h1 {
+		width: 100%;
+		display: block;
+		text-align: center;
+	}
+	.laravel-cucei {
+		width: 50%;
+		margin: 3em auto;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+		img {
+			width: 35%;
+			transition: transform .4s;
+			&:hover {
+				transform: scale(1.25);
+			}
+		}
+		p {
+			margin-top: 2em;
+			text-align: center;
+		}
+	}
+	section {
+		width: 80%;
+		margin: 0 auto;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+		p {
+			color: #3D4852;
+			a {
+				color: #f4645f;
+				font-weight: bold;
+			}
+		}
+		img {
+			width: 100%;
+		}
+		ul {
+			width: 100%;
+			li {
+				width: 100%;
+			}
+		}
+		h2 {
+			width: 100%;
+
+		}
+		.col14 {
+			width: 20%;
+			// padding: 0 15px;
+			display: flex;
+			text-align: center;
+			flex-wrap: wrap;
+			i {
+				width: 100%;
+				color: #606F7B;
+				font-size: 7em;
+				transition: transform .4s;
+				&:hover {
+					transform: scale(1.25);
+				}
+			}
+			h3 {
+				width: 100%;
+			}
+		}
+	}
 }
